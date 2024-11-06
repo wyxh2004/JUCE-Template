@@ -1,0 +1,166 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 160,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 184,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 185,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 191,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/JUCE-8.0.3",
+			"paths" : 
+			[
+				"out/build/x64-Debug/JUCEConfigVersion.cmake",
+				"out/build/x64-Debug/JUCEConfig.cmake",
+				"extras/Build/CMake/JUCECheckAtomic.cmake",
+				"extras/Build/CMake/JUCEHelperTargets.cmake",
+				"extras/Build/CMake/JUCEModuleSupport.cmake",
+				"extras/Build/CMake/JUCEUtils.cmake",
+				"extras/Build/CMake/JuceLV2Defines.h.in",
+				"extras/Build/CMake/LaunchScreen.storyboard",
+				"extras/Build/CMake/PIPAudioProcessor.cpp.in",
+				"extras/Build/CMake/PIPAudioProcessorWithARA.cpp.in",
+				"extras/Build/CMake/PIPComponent.cpp.in",
+				"extras/Build/CMake/PIPConsole.cpp.in",
+				"extras/Build/CMake/RecentFilesMenuTemplate.nib",
+				"extras/Build/CMake/UnityPluginGUIScript.cs.in",
+				"extras/Build/CMake/checkBundleSigning.cmake",
+				"extras/Build/CMake/copyDir.cmake",
+				"extras/Build/CMake/juce_runtime_arch_detection.cpp",
+				"extras/Build/CMake/juce_LinuxSubprocessHelper.cpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/JUCE-8.0.3",
+			"paths" : 
+			[
+				"juce_lv2_helper.exe"
+			],
+			"targetId" : "juce_lv2_helper::@6890427a1f51a3e7e1df",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "juce_lv2_helper::@6890427a1f51a3e7e1df",
+				"index" : 0
+			},
+			"destination" : "bin/JUCE-8.0.3",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/JUCE-8.0.3",
+			"exportName" : "LV2_HELPER",
+			"exportTargets" : 
+			[
+				{
+					"id" : "juce_lv2_helper::@6890427a1f51a3e7e1df",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/1ac93432313da1970243e25e5dc5dd41/LV2_HELPER.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin/JUCE-8.0.3",
+			"paths" : 
+			[
+				"juce_vst3_helper.exe"
+			],
+			"targetId" : "juce_vst3_helper::@6890427a1f51a3e7e1df",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "juce_vst3_helper::@6890427a1f51a3e7e1df",
+				"index" : 1
+			},
+			"destination" : "bin/JUCE-8.0.3",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/JUCE-8.0.3",
+			"exportName" : "VST3_HELPER",
+			"exportTargets" : 
+			[
+				{
+					"id" : "juce_vst3_helper::@6890427a1f51a3e7e1df",
+					"index" : 1
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/1ac93432313da1970243e25e5dc5dd41/VST3_HELPER.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}
